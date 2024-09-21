@@ -1,68 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
+body {
     background-color: black;
-    font-family: raleway;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
 }
 
-.descripcion{
+.descripcion {
     display: flex;
     padding: 2rem;
     gap: 13rem;
-    color: #ffff;
-    
 }
 
-.descripcion > div > img{
+.descripcion>div>img {
     width: 100%;
     height: 100%;
-    padding-left: 15rem;
-    padding-top: 2rem;
-    
+    padding: 2rem 0 0 15rem;
 }
 
-.descripcion2{
+.descripcion2 {
     padding-right: 15rem;
-    
 }
 
-.titulo{
-    color: #ffff;
+.titulo,
+.educacion,
+.experiencia,
+.portafolio,
+.footer {
+    color: inherit;
     text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem 0;
 }
 
-.educacion{
-    color: #ffff;
-    text-align: center;
+.educacion {
     background-color: #232829;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
 }
 
-
-.experiencia{
-    color: #ffff;
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-.portafolio{
-    color: #ffff;
-    text-align: center;
-}
-
-.footer{
-    color: #ffff;
-    text-align: center;
-}
-
-.social{
+.social {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    font-weight: normal;
     gap: 4rem;
+    font-weight: normal;
 }
